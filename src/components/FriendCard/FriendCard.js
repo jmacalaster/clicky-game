@@ -4,10 +4,11 @@ import "./FriendCard.css";
 const FriendCard = props => (
   <div className="card">
     <div className="img-container">
+    <span onClick={() => props.shuffleFriend()}>
       <img alt={props.name} src={props.image} />
+    </span>
     </div>
     <div className="content">
-    <span onClick={() => props.shuffleFriend()}>
       <ul>
         <li>
           <strong>Name:</strong> {props.name}
@@ -19,11 +20,10 @@ const FriendCard = props => (
           <strong>Hobby:</strong> {props.location}
         </li>
       </ul>
-    </span>
     </div>
-    <span onClick={() => props.removeFriend(props.id)} className="remove">
+  <span onClick={() => props.updateClicked(props.id)} className="remove">
       𝘅
-    </span>
+  </span>
   </div>
 );
 

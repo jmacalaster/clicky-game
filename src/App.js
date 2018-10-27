@@ -19,6 +19,18 @@ class App extends Component {
     this.setState({ friends });
   };
 
+  updateClicked = id => {
+    const friends = this.state.friends;
+    for(var i in friends){
+      if (friends[i].id === id){
+        friends[i].clicked = true;
+        break;
+      }
+    }
+    this.setState({ friends });
+    console.log(friends);
+  };
+
   //Shuffle the friends array every time a card is clicked 
   shuffleFriend = friends => {
     let currentIndex = friends.length -1;
@@ -48,6 +60,7 @@ class App extends Component {
           <FriendCard
             removeFriend={this.removeFriend}
             shuffleFriend={this.handleCorrectGuess}
+            updateClicked={this.updateClicked}
             id={friend.id}
             key={friend.id}
             name={friend.name}
