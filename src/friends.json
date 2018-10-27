@@ -1,86 +1,86 @@
 [
   {
     "id": 1,
-    "name": "SpongeBob",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Spongebob-squarepants.svg/666px-Spongebob-squarepants.svg.png",
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+    "name": "Honey",
+    "image": "http://dogtowndogtraining.com/wp-content/uploads/2012/06/300x300-061-e1340955308953.jpg",
+    "occupation": "Golden",
+    "location": "Playing fetch"
   },
   {
     "id": 2,
-    "name": "Mr. Krabs",
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "name": "Steve",
+    "image": "https://mysweetpuppy.net/wp-content/uploads/2015/11/Depositphotos_45554309_s-2015-300x300.jpg",
+    "occupation": "Lab",
+    "location": "Burying Bones"
   },
   {
     "id": 3,
-    "name": "Squidward",
-    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "name": "Ralph",
+    "image": "https://cdn9-8e4c.kxcdn.com/wp-content/uploads/2018/01/1801_Pigalle_DOP_1-300x300.jpg",
+    "occupation": "Cute Pup",
+    "location": "Biting Ankles"
   },
   {
     "id": 4,
     "name": "Dexter",
-    "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
-    "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
+    "image": "https://www.scottsdalepethotel.com/wp-content/uploads/2015/10/little-dog-300x300.jpg",
+    "occupation": "Pup",
+    "location": "Being Cute"
   },
   {
     "id": 5,
     "name": "Courage",
-    "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
-    "occupation": "A Cowardly Dog",
-    "location": "Nowhere, Kansas"
+    "image": "https://www.petlandwichita.com/wp-content/uploads/2017/06/akita2-300x300.jpg",
+    "occupation": "Akita",
+    "location": "Licking"
   },
   {
     "id": 6,
-    "name": "Doug Funnie",
-    "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
-    "occupation": "Student",
-    "location": "Bluffington"
+    "name": "Poo Bear",
+    "image": "https://www.petlandwichita.com/wp-content/uploads/2017/06/bichon-poo-300x300.jpg",
+    "occupation": "Bichon Poo",
+    "location": "Snuggling"
   },
   {
     "id": 7,
-    "name": "Bugs Bunny",
-    "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607",
-    "occupation": "Looney Toon",
-    "location": "A Rabbit Burrow"
+    "name": "Rover",
+    "image": "https://www.petlandwichita.com/wp-content/uploads/2017/07/american-bulldog-300x300.jpg",
+    "occupation": "American Bulldog",
+    "location": "Chasing Rabbits"
   },
   {
     "id": 8,
-    "name": "Johnny Bravo",
-    "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist",
-    "occupation": "Ladies Man",
-    "location": "Aron City"
+    "name": "Walker",
+    "image": "https://dogzen.com/wp-content/uploads/2016/12/DogZen_christmas_carousel_02-300x300.png",
+    "occupation": "Beagle",
+    "location": "Playing Ball"
   },
   {
     "id": 9,
-    "name": "Tommy Pickles",
-    "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641",
-    "occupation": "Adventurer",
-    "location": "California"
+    "name": "Charles",
+    "image": "https://cdn.shopmimigreen.com/wp-content/uploads/2018/09/tiny-dog-collar-300x300.jpg",
+    "occupation": "Chiwawa",
+    "location": "Barking"
   },
   {
     "id": 10,
     "name": "Rocko",
-    "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416",
-    "occupation": "Cashier",
-    "location": "O-Town, California"
+    "image": "https://connectwithyourk9.com/wp-content/uploads/2015/12/IMG_9398-e1507753741680-300x300.jpg",
+    "occupation": "Cute Pup",
+    "location": "Chasing Cats"
   },
   {
     "id": 11,
-    "name": "Captain Planet",
-    "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836",
-    "occupation": "Superhero",
-    "location": "Earth"
+    "name": "Teddy",
+    "image": "https://www.petlandolathe.com/wp-content/uploads/2017/09/teddy-bear-300x300.jpg",
+    "occupation": "Poodle",
+    "location": "Eating"
   },
   {
     "id": 12,
     "name": "Ickis",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "image": "https://www.petland-dalton.com/wp-content/uploads/2017/04/dalmatian-300x300.jpg",
+    "occupation": "Dalmation",
+    "location": "Counting his dots"
   }
 ]

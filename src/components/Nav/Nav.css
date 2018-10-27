@@ -1,0 +1,13 @@
+.Nav {
+  text-align: center;
+  color:lightblue;
+}
+
+.navbar {
+  background-color: lightblue;
+}
+
+.nav-link {
+  color: lightblue;
+  padding: 10px,
+}
