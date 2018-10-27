@@ -4,7 +4,11 @@ import "./FriendCard.css";
 const FriendCard = props => (
   <div className="card">
     <div className="img-container">
-    <span onClick={() => props.shuffleFriend()}>
+    <span onClick={() => {
+      props.shuffleFriend();
+      props.updateClicked(props.id)
+    }
+    }>
       <img alt={props.name} src={props.image} />
     </span>
     </div>
@@ -21,9 +25,6 @@ const FriendCard = props => (
         </li>
       </ul>
     </div>
-  <span onClick={() => props.updateClicked(props.id)} className="remove">
-      𝘅
-  </span>
   </div>
 );
 

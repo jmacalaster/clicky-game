@@ -6,25 +6,27 @@ import Title from "./components/Title";
 import friends from "./friends.json";
 import "./App.css";
 
+var clickCount = 0;
+var topScore = 0;
+
+
 class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
     friends
   };
 
-  removeFriend = id => {
-    // Filter this.state.friends for friends with an id not equal to the id being removed
-    const friends = this.state.friends.filter(friend => friend.id !== id);
-    // Set this.state.friends equal to the new friends array
-    this.setState({ friends });
-  };
-
   updateClicked = id => {
     const friends = this.state.friends;
     for(var i in friends){
       if (friends[i].id === id){
-        friends[i].clicked = true;
-        break;
+        if (friends[i].clicked === false){
+          clickCount++;
+          friends[i].clicked = true;
+        }
+        else
+          alert("Ruff, you clicked on me already!")
+      break;
       }
     }
     this.setState({ friends });
@@ -53,7 +55,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <NavBar>0</NavBar>
+        <NavBar
+          clickCount={clickCount}
+          topScore={topScore}
+        />
         <Title></Title>
         <Wrapper>
         {this.state.friends.map(friend => (
