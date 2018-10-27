@@ -4,83 +4,95 @@
     "name": "Honey",
     "image": "http://dogtowndogtraining.com/wp-content/uploads/2012/06/300x300-061-e1340955308953.jpg",
     "occupation": "Golden",
-    "location": "Playing fetch"
+    "location": "Playing fetch",
+    "clicked": false
   },
   {
     "id": 2,
     "name": "Steve",
     "image": "https://mysweetpuppy.net/wp-content/uploads/2015/11/Depositphotos_45554309_s-2015-300x300.jpg",
     "occupation": "Lab",
-    "location": "Burying Bones"
+    "location": "Burying Bones",
+    "clicked": false
   },
   {
     "id": 3,
     "name": "Ralph",
     "image": "https://cdn9-8e4c.kxcdn.com/wp-content/uploads/2018/01/1801_Pigalle_DOP_1-300x300.jpg",
     "occupation": "Cute Pup",
-    "location": "Biting Ankles"
+    "location": "Biting Ankles",
+    "clicked": false
   },
   {
     "id": 4,
     "name": "Dexter",
     "image": "https://www.scottsdalepethotel.com/wp-content/uploads/2015/10/little-dog-300x300.jpg",
     "occupation": "Pup",
-    "location": "Being Cute"
+    "location": "Being Cute",
+    "clicked": false
   },
   {
     "id": 5,
     "name": "Courage",
     "image": "https://www.petlandwichita.com/wp-content/uploads/2017/06/akita2-300x300.jpg",
     "occupation": "Akita",
-    "location": "Licking"
+    "location": "Licking",
+    "clicked": false
   },
   {
     "id": 6,
     "name": "Poo Bear",
     "image": "https://www.petlandwichita.com/wp-content/uploads/2017/06/bichon-poo-300x300.jpg",
     "occupation": "Bichon Poo",
-    "location": "Snuggling"
+    "location": "Snuggling",
+    "clicked": false
   },
   {
     "id": 7,
     "name": "Rover",
     "image": "https://www.petlandwichita.com/wp-content/uploads/2017/07/american-bulldog-300x300.jpg",
     "occupation": "American Bulldog",
-    "location": "Chasing Rabbits"
+    "location": "Chasing Rabbits",
+    "clicked": false
   },
   {
     "id": 8,
     "name": "Walker",
     "image": "https://dogzen.com/wp-content/uploads/2016/12/DogZen_christmas_carousel_02-300x300.png",
     "occupation": "Beagle",
-    "location": "Playing Ball"
+    "location": "Playing Ball",
+    "clicked": false
   },
   {
     "id": 9,
     "name": "Charles",
     "image": "https://cdn.shopmimigreen.com/wp-content/uploads/2018/09/tiny-dog-collar-300x300.jpg",
     "occupation": "Chiwawa",
-    "location": "Barking"
+    "location": "Barking",
+    "clicked": false
   },
   {
     "id": 10,
     "name": "Rocko",
     "image": "https://connectwithyourk9.com/wp-content/uploads/2015/12/IMG_9398-e1507753741680-300x300.jpg",
     "occupation": "Cute Pup",
-    "location": "Chasing Cats"
+    "location": "Chasing Cats",
+    "clicked": false
   },
   {
     "id": 11,
     "name": "Teddy",
     "image": "https://www.petlandolathe.com/wp-content/uploads/2017/09/teddy-bear-300x300.jpg",
     "occupation": "Poodle",
-    "location": "Eating"
+    "location": "Eating",
+    "clicked": false
   },
   {
     "id": 12,
     "name": "Ickis",
     "image": "https://www.petland-dalton.com/wp-content/uploads/2017/04/dalmatian-300x300.jpg",
     "occupation": "Dalmation",
-    "location": "Counting his dots"
+    "location": "Counting his dots",
+    "clicked": false
   }
 ]

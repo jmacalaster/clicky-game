@@ -7,6 +7,7 @@ const FriendCard = props => (
       <img alt={props.name} src={props.image} />
     </div>
     <div className="content">
+    <span onClick={() => props.shuffleFriend()}>
       <ul>
         <li>
           <strong>Name:</strong> {props.name}
@@ -18,6 +19,7 @@ const FriendCard = props => (
           <strong>Hobby:</strong> {props.location}
         </li>
       </ul>
+    </span>
     </div>
     <span onClick={() => props.removeFriend(props.id)} className="remove">
       𝘅

@@ -19,6 +19,24 @@ class App extends Component {
     this.setState({ friends });
   };
 
+  //Shuffle the friends array every time a card is clicked 
+  shuffleFriend = friends => {
+    let currentIndex = friends.length -1;
+    for(; currentIndex>0; currentIndex--){
+      const randomIndex = Math.floor(Math.random() * (currentIndex + 1));
+      const temp = friends[currentIndex];
+      friends[currentIndex] = friends[randomIndex];
+      friends[randomIndex] = temp;
+    }
+    return friends;
+  }
+
+  handleCorrectGuess = () => {
+    this.setState({
+      friends: this.shuffleFriend(friends)
+    })
+  }
+
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
@@ -29,6 +47,7 @@ class App extends Component {
         {this.state.friends.map(friend => (
           <FriendCard
             removeFriend={this.removeFriend}
+            shuffleFriend={this.handleCorrectGuess}
             id={friend.id}
             key={friend.id}
             name={friend.name}
